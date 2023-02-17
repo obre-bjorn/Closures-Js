@@ -29,6 +29,7 @@ let Adult = function(name) {
 }
 
     return {
+        name:name,
         marry() {
             married = true;
             return this
@@ -42,6 +43,6 @@ let Adult = function(name) {
 
 
 let Bjorn = Adult('Bjorn')
-
+console.info(Bjorn.name)
 Bjorn.marry().status()
 Bjorn.divorce().status()
