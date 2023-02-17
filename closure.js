@@ -11,7 +11,6 @@ let adder = function(a, b) {
 
 let result = adder.call(number, 4, 3);
 
-
 console.log('====================================');
 console.log(result);
 console.log('====================================');
@@ -51,3 +50,6 @@ function getBookPages() {
 // function parameters can be passed later on either in function arguments or array of arguments.
 let getBookInfo = getBookPages.bind(book)
 console.log(getBookInfo())
+
+
+// CLOSURES
